@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 3px solid #007BFF;
+}
+
+nav strong {
+    font-size: 1.5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+header {
+    background: #0a112f;
+    color: white;
+    height: 80vh; /* 80% altura pantalla */
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0 0 10px 0;
+}
+
+header h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+header a {
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#habilidades {
+    background-color: #f4f4f4 ;
+    max-width: 100%;
+}
+
+#habilidades > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    color: #007BFF;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+article li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+address {
+    font-style: normal;
+    margin: 20px 0;
+    line-height: 2;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+small {
+    color: #888;
+}
